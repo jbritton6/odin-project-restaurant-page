@@ -14,6 +14,8 @@ function navBarButton(text) {
 function navBar() {
     const element = document.createElement('ul');
     element.appendChild(navBarButton('Home'));
+    element.appendChild(navBarButton('Menu'));
+    element.appendChild(navBarButton('Contact'));
     return element;
 }
 
