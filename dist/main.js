@@ -1,1 +1,1 @@
-alert("Dental");
+(()=>{"use strict";!function(){const e=document.querySelector("div#content");e.appendChild(function(){const e=document.createElement("h1");return e.textContent="My Restaurant",e}()),e.appendChild(function(){const e=document.createElement("ul");return e.appendChild(function(e){const t=document.createElement("li"),n=document.createTextNode("Home");return t.appendChild(n),t}()),e}())}()})();

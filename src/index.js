@@ -1,1 +1,3 @@
-alert('Dental')
+import mainHomepage from './homepage.js';
+
+mainHomepage();
