@@ -19,6 +19,14 @@ function navBar() {
     return element;
 }
 
+function photo() {
+    const container = document.createElement('div');
+    const image = document.createElement('img');
+    image.src = './src/images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg'
+    container.appendChild(image);
+    container.classList.add('homepage-image')
+    return container
+}
 
 
 function mainHomepage() {
@@ -26,6 +34,7 @@ function mainHomepage() {
 
     page.appendChild(title());
     page.appendChild(navBar());
+    page.appendChild(photo());
 }
 
 export default mainHomepage;
