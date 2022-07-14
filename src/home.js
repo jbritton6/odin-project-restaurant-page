@@ -25,7 +25,7 @@ function navBar() {
 function photo() {
     const container = document.createElement('div');
     container.classList.add('homepage-image');
-    
+
     const photo = new Image();
     photo.src = homePhoto;
     container.appendChild(photo);
@@ -33,10 +33,10 @@ function photo() {
 }
 
 function anchor(text, link) {
-    const container = document.createElement('a');
-    container.setAttribute('href', link);
-    container.textContent = text;
-    return container;
+    const anchor = document.createElement('a');
+    anchor.setAttribute('href', link);
+    anchor.textContent = text;
+    return anchor;
 } 
 
 function photoCredit() {
