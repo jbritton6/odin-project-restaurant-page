@@ -1,3 +1,5 @@
+import homepagePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
+
 function title() {
     const element = document.createElement('h1');
     element.textContent = 'My Restaurant';
@@ -21,11 +23,11 @@ function navBar() {
 
 function photo() {
     const container = document.createElement('div');
-    const image = document.createElement('img');
-    image.src = './src/images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg'
-    container.appendChild(image);
-    container.classList.add('homepage-image')
-    return container
+    container.classList.add('homepage-image');
+    const photo = new Image();
+    photo.src = homepagePhoto;
+    container.appendChild(photo);
+    return container;
 }
 
 
