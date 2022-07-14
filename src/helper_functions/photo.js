@@ -23,7 +23,7 @@ function anchor(text, link) {
 
 
 function photoCredit(
-    nameOfPhoto,
+    photoAuthor,
     firstLink,
     websiteName,
     secondLink
@@ -33,7 +33,7 @@ function photoCredit(
     const text2 = document.createTextNode(' on ');
 
     container.appendChild(text1);
-    container.appendChild(anchor(nameOfPhoto, firstLink));
+    container.appendChild(anchor(photoAuthor, firstLink));
     container.appendChild(text2);
     container.appendChild(anchor(websiteName, secondLink));
     
