@@ -50,7 +50,7 @@ function photoCredit() {
 }
   
 
-function mainHomepage() {
+function mainHome() {
     const page = document.querySelector('div#content');
 
     page.appendChild(title());
@@ -59,4 +59,4 @@ function mainHomepage() {
     page.appendChild(photoCredit());
 }
 
-export default mainHomepage;
+export default mainHome;

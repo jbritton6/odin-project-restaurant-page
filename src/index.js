@@ -1,3 +1,3 @@
-import mainHomepage from './home.js';
+import mainHome from './home.js';
 
-mainHomepage();
+mainHome();
