@@ -31,6 +31,24 @@ function photo() {
     return container;
 }
 
+function anchor(text, link) {
+    const container = document.createElement('a');
+    container.setAttribute('href', link);
+    container.textContent = text;
+    return container;
+} 
+
+function photoCredit() {
+    const container = document.createElement('p');
+    const text1 = document.createTextNode('Photo by ');
+    const text2 = document.createTextNode(' on ');
+    container.appendChild(text1);
+    container.appendChild(anchor('Coffee with Joshua', 'https://unsplash.com/@coffeewithjoshua?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'));
+    container.appendChild(text2);
+    container.appendChild(anchor('Unsplash', 'https://unsplash.com/s/photos/doughnut-shop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'));
+    return container;
+}
+  
 
 function mainHomepage() {
     const page = document.querySelector('div#content');
@@ -38,6 +56,7 @@ function mainHomepage() {
     page.appendChild(title());
     page.appendChild(navBar());
     page.appendChild(photo());
+    page.appendChild(photoCredit());
 }
 
 export default mainHomepage;
