@@ -25,6 +25,7 @@ function navBar() {
 function photo() {
     const container = document.createElement('div');
     container.classList.add('homepage-image');
+    
     const photo = new Image();
     photo.src = homePhoto;
     container.appendChild(photo);
