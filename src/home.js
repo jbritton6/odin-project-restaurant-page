@@ -8,10 +8,10 @@ function title() {
 }
 
 function navBarButton(text) {
-    const element = document.createElement('li');
-    const content = document.createTextNode(text);
-    element.appendChild(content);
-    return element;
+    const button = document.createElement('li');
+    const buttonText = document.createTextNode(text);
+    button.appendChild(buttonText);
+    return button;
 }
 
 function navBar() {
