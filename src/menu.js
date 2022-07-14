@@ -1,4 +1,4 @@
-import mainHeader from './header.js';
+import mainHeader from './helper_functions/header.js';
 import menuPhoto from './images/lore-schodts-8BNGxSAQd6M-unsplash.jpg';
 import './styles/styles.css';
 
