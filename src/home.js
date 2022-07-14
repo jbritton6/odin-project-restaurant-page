@@ -15,11 +15,11 @@ function navBarButton(text) {
 }
 
 function navBar() {
-    const element = document.createElement('ul');
-    element.appendChild(navBarButton('Home'));
-    element.appendChild(navBarButton('Menu'));
-    element.appendChild(navBarButton('Contact'));
-    return element;
+    const navBar = document.createElement('ul');
+    navBar.appendChild(navBarButton('Home'));
+    navBar.appendChild(navBarButton('Menu'));
+    navBar.appendChild(navBarButton('Contact'));
+    return navBar;
 }
 
 function photo() {
