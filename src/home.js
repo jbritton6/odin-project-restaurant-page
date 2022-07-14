@@ -2,9 +2,9 @@ import homePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
 import './styles/styles.css';
 
 function title() {
-    const element = document.createElement('h1');
-    element.textContent = 'My Restaurant';
-    return element;
+    const title = document.createElement('h1');
+    title.textContent = 'My Restaurant';
+    return title;
 }
 
 function navBarButton(text) {
