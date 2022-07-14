@@ -1,4 +1,4 @@
-import homepagePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
+import homePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
 import './styles/styles.css';
 
 function title() {
@@ -26,7 +26,7 @@ function photo() {
     const container = document.createElement('div');
     container.classList.add('homepage-image');
     const photo = new Image();
-    photo.src = homepagePhoto;
+    photo.src = homePhoto;
     container.appendChild(photo);
     return container;
 }
