@@ -1,0 +1,9 @@
+.homepage-image {
+    height: 200px;
+    width: 200px;
+}
+
+.homepage-image img {
+    height: 100%;
+    width: 100%;
+}

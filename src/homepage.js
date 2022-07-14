@@ -1,4 +1,5 @@
 import homepagePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
+import './styles/styles.css';
 
 function title() {
     const element = document.createElement('h1');
