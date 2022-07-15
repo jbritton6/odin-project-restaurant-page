@@ -9,11 +9,10 @@ document.querySelector('div#content').appendChild(mainHome());
 
 
 const loadPage = (pageLoadingFunction) => {
-    const container = document.querySelector('div.home-content');
-    container.textContent = '';
+    const content = document.querySelector('div#content > div + div');
+    content.remove();
 
-    alert('hi')
-
+    const container = document.querySelector('div#content');
     container.appendChild(pageLoadingFunction());
 };
 

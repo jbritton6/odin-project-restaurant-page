@@ -31,17 +31,18 @@ function doughnutInfo() {
 
 
 function mainMenu() {
-    const page = document.querySelector('div#content');
+    const container = document.createElement('div');
 
-    mainHeader();
-    page.appendChild(photo(menuPhoto));
-    page.appendChild(doughnutInfo());
-    page.appendChild(photoCredit(
+    container.appendChild(photo(menuPhoto));
+    container.appendChild(doughnutInfo());
+    container.appendChild(photoCredit(
         'Lore Schodts',
         'https://unsplash.com/@lore_schodts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
         'Unsplash',
         'https://unsplash.com/s/photos/pastry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
     ));
+
+    return container;
 }
   
 

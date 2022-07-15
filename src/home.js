@@ -6,7 +6,6 @@ import './styles/styles.css';
 
 function mainHome() {
     const container = document.createElement('div');
-    container.classList.add('home-content');
 
     container.appendChild(photo(homePhoto));
     container.appendChild(photoCredit(

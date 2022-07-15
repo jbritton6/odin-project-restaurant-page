@@ -29,10 +29,11 @@ function contactInfo() {
 
 
 function mainContact() {
-    const page = document.querySelector('div#content');
+    const container = document.createElement('div');
 
-    mainHeader();
-    page.appendChild(contactInfo());
+    container.appendChild(contactInfo());
+
+    return container;
 }
 
 
