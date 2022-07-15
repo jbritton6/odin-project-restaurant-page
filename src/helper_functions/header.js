@@ -9,9 +9,10 @@ function title() {
 }
 
 
-function navBarButton(text) {
+function navBarButton(text, id) {
     const button = document.createElement('li');
     button.classList.add('nav-bar-button');
+    button.id = id;
 
     const buttonText = document.createTextNode(text);
     button.appendChild(buttonText);
@@ -23,9 +24,9 @@ function navBarButton(text) {
 function navBar() {
     const navBar = document.createElement('ul');
     navBar.classList.add('nav-bar');
-    navBar.appendChild(navBarButton('Home'));
-    navBar.appendChild(navBarButton('Menu'));
-    navBar.appendChild(navBarButton('Contact'));
+    navBar.appendChild(navBarButton('Home', 'home'));
+    navBar.appendChild(navBarButton('Menu', 'menu'));
+    navBar.appendChild(navBarButton('Contact', 'contact'));
 
     return navBar;
 }
