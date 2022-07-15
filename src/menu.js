@@ -33,7 +33,9 @@ function doughnutInfo() {
     itemContainer.appendChild(itemDescription);
     */
     const doughnutInfoContainer = document.createElement('div');
-    doughnutInfoContainer.appendChild(doughnutInfoRow('Item:', 'Lorem ipsum dolor'));
+    doughnutInfoContainer.appendChild(doughnutInfoRow('Item:', 'Chocolate with Sprinkles'));
+    doughnutInfoContainer.appendChild(doughnutInfoRow('Description:', 'Cholocate glazed with assorted sprinkles.'));
+    doughnutInfoContainer.appendChild(doughnutInfoRow('Price:', '$10.00'));
 
     // const priceContainer = document.createElement('div');
     return doughnutInfoContainer;
