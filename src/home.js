@@ -5,9 +5,11 @@ import './styles/styles.css';
 
 
 function mainHome() {
-    const page = document.querySelector('div#content');
+    // const page = document.querySelector('div#content');
+    const page = document.createElement('div');
+    page.classList.add('home-content');
 
-    mainHeader();
+    // page.appendChild(mainHeader());
     page.appendChild(photo(homePhoto));
     page.appendChild(photoCredit(
         'Coffee with Joshua',
@@ -15,6 +17,8 @@ function mainHome() {
         'Unsplash', 
         'https://unsplash.com/s/photos/doughnut-shop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
     ));
+
+    return page;
 }
 
 
