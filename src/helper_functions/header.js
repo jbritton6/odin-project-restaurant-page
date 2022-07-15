@@ -11,6 +11,8 @@ function title() {
 
 function navBarButton(text) {
     const button = document.createElement('li');
+    button.classList.add('nav-bar-button');
+
     const buttonText = document.createTextNode(text);
     button.appendChild(buttonText);
 
@@ -20,6 +22,7 @@ function navBarButton(text) {
 
 function navBar() {
     const navBar = document.createElement('ul');
+    navBar.classList.add('nav-bar');
     navBar.appendChild(navBarButton('Home'));
     navBar.appendChild(navBarButton('Menu'));
     navBar.appendChild(navBarButton('Contact'));

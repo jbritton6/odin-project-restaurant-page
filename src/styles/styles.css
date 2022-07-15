@@ -1,3 +1,13 @@
+.nav-bar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-button {
+    list-style-type: none;
+}
+
 .homepage-image {
     height: 200px;
     width: 200px;
