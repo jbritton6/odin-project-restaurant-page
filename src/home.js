@@ -1,4 +1,3 @@
-import mainHeader from './helper_functions/header.js';
 import { photo, photoCredit } from './helper_functions/photo.js';
 import homePhoto from './images/coffee-with-joshua-mrZS86BKk0E-unsplash.jpg';
 import './styles/styles.css';

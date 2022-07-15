@@ -33,7 +33,6 @@ function navBar() {
 
 
 function mainHeader() {
-    // const page = document.querySelector('div#content');
     const page = document.createElement('div');
 
     page.appendChild(title());

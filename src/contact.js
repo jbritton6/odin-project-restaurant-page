@@ -1,4 +1,3 @@
-import mainHeader from './helper_functions/header.js';
 import './styles/styles.css';
 
 
