@@ -3,6 +3,7 @@ import mainMenu from './menu.js';
 import mainContact from './contact.js';
 import mainHeader from './helper_functions/header.js';
 
+
 document.querySelector('div#content').appendChild(mainHeader());
 document.querySelector('div#content').appendChild(mainHome());
 

@@ -5,20 +5,18 @@ import './styles/styles.css';
 
 
 function mainHome() {
-    // const page = document.querySelector('div#content');
-    const page = document.createElement('div');
-    page.classList.add('home-content');
+    const container = document.createElement('div');
+    container.classList.add('home-content');
 
-    // page.appendChild(mainHeader());
-    page.appendChild(photo(homePhoto));
-    page.appendChild(photoCredit(
+    container.appendChild(photo(homePhoto));
+    container.appendChild(photoCredit(
         'Coffee with Joshua',
         'https://unsplash.com/@coffeewithjoshua?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
         'Unsplash', 
         'https://unsplash.com/s/photos/doughnut-shop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
     ));
 
-    return page;
+    return container;
 }
 
 
