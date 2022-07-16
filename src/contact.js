@@ -22,6 +22,7 @@ function contactInfo() {
     contactInfoContainer.appendChild(contactInfoRow('Phone:', '000-000-0000'));
     contactInfoContainer.appendChild(contactInfoRow('Email:', 'example@email.com'));
     contactInfoContainer.appendChild(contactInfoRow('Location:', '1 Main Street, New York, New York 10000'));
+    contactInfoContainer.classList.add('contact');
 
     return contactInfoContainer;
 }

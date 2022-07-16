@@ -57,11 +57,20 @@ img {
     text-align: left;
 }
 
-.menu-info-row > P:nth-child(2n+1) {
+.menu-info-row > P:nth-child(2n+1),
+.contact-info-row > p:nth-child(2n+1) {
     font-weight: 900;
 }
 
 .contact-info-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.contact {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 15%;
+    margin-top: 50px;
 }
