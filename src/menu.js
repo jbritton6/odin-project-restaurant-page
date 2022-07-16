@@ -28,6 +28,7 @@ function menuInfo() {
     return menuInfoContainer;
 }
 
+
 function menu() {
     const menuContainer = document.createElement('div');
     menuContainer.appendChild(photo(menuPhoto));

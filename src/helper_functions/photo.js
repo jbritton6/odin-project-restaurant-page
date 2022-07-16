@@ -2,14 +2,10 @@ import '../styles/styles.css';
 
 
 function photo(photoSource) {
-    const container = document.createElement('div');
-    container.classList.add('image');
-
     const photo = new Image();
     photo.src = photoSource;
-    container.appendChild(photo);
 
-    return container;
+    return photo;
 }
 
 
