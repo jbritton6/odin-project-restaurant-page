@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Bodoni Moda';
+    src: url('../fonts/BodoniModa-VariableFont_opsz,wght.ttf');
+}
+
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .nav-bar {
