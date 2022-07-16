@@ -3,7 +3,7 @@ import menuPhoto from './images/lore-schodts-8BNGxSAQd6M-unsplash.jpg';
 import './styles/styles.css';
 
 
-function doughnutInfoRow(title, description) {
+function menuInfoRow(title, description) {
     const rowTitle = document.createElement('p');
     rowTitle.textContent = title;
 
@@ -19,13 +19,13 @@ function doughnutInfoRow(title, description) {
 }
 
 
-function doughnutInfo() {
-    const doughnutInfoContainer = document.createElement('div');
-    doughnutInfoContainer.appendChild(doughnutInfoRow('Item:', 'Chocolate with Sprinkles'));
-    doughnutInfoContainer.appendChild(doughnutInfoRow('Description:', 'Cholocate glazed with assorted sprinkles.'));
-    doughnutInfoContainer.appendChild(doughnutInfoRow('Price:', '$10.00'));
+function menuInfo() {
+    const menuInfoContainer = document.createElement('div');
+    menuInfoContainer.appendChild(menuInfoRow('Item:', 'Chocolate with Sprinkles'));
+    menuInfoContainer.appendChild(menuInfoRow('Description:', 'Cholocate glazed with assorted sprinkles.'));
+    menuInfoContainer.appendChild(menuInfoRow('Price:', '$10.00'));
 
-    return doughnutInfoContainer;
+    return menuInfoContainer;
 }
 
 
@@ -33,7 +33,7 @@ function mainMenu() {
     const container = document.createElement('div');
 
     container.appendChild(photo(menuPhoto));
-    container.appendChild(doughnutInfo());
+    container.appendChild(menuInfo());
     container.appendChild(photoCredit(
         'Lore Schodts',
         'https://unsplash.com/@lore_schodts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
