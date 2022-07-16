@@ -5,6 +5,7 @@
 
 * {
     font-family: 'Bodoni Moda', serif;
+    text-align: center;
 }
 
 h1 {
@@ -26,16 +27,9 @@ h1 {
     margin: 0 50px;
 }
 
-
-
-.homepage-image {
-    height: 200px;
-    width: 200px;
-}
-
 .homepage-image img {
-    height: 100%;
-    width: 100%;
+    margin: 50px;
+    width: 400px;
 }
 
 .doughnut-info-row {
