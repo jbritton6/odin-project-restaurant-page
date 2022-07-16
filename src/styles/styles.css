@@ -7,6 +7,11 @@
     font-family: 'Bodoni Moda', serif;
 }
 
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
 .nav-bar {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
