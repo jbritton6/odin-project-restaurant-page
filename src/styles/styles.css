@@ -1,12 +1,16 @@
 .nav-bar {
     display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
 }
 
 .nav-bar-button {
     list-style-type: none;
+    margin: 0 50px;
 }
+
+
 
 .homepage-image {
     height: 200px;
