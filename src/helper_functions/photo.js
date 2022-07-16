@@ -3,7 +3,7 @@ import '../styles/styles.css';
 
 function photo(photoSource) {
     const container = document.createElement('div');
-    container.classList.add('homepage-image');
+    container.classList.add('image');
 
     const photo = new Image();
     photo.src = photoSource;
