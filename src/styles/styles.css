@@ -41,7 +41,7 @@ img {
 
 .menu-info-row {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 125px 1fr;
 }
 
 .menu-info-row > p {

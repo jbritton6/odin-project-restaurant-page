@@ -21,20 +21,21 @@ function menuInfoRow(title, description) {
 
 function menuInfo() {
     const menuInfoContainer = document.createElement('div');
-    menuInfoContainer.appendChild(menuInfoRow('Item:', 'Chocolate with Sprinkles'));
-    menuInfoContainer.appendChild(menuInfoRow('Description:', 'Cholocate glazed with assorted sprinkles.'));
-    menuInfoContainer.appendChild(menuInfoRow('Price:', '$10.00'));
-
+    menuInfoContainer.appendChild(menuInfoRow('Doughnut:', 'Chocolate Frosted ($3)'));
+    menuInfoContainer.appendChild(menuInfoRow('Doughnut:', 'Strawberry Frosted ($3)'));
+    menuInfoContainer.appendChild(menuInfoRow('Doughnut:', 'Jelly ($4)'));
+    menuInfoContainer.appendChild(menuInfoRow('Doughnut:', 'Glazed ($3)'));
+    menuInfoContainer.appendChild(menuInfoRow('Doughnut:', 'Cream-Filled ($4)'));
+    menuInfoContainer.appendChild(menuInfoRow('Drink:', 'Coffee ($3)'));
+    menuInfoContainer.appendChild(menuInfoRow('Drink:', 'Tea ($3)'));
+ 
     return menuInfoContainer;
 }
 
 
 function menu() {
     const menuContainer = document.createElement('div');
-
-    const menuImage = photo(menuPhoto);
-    menuImage.setAttribute('usemap', '#items');
-    menuContainer.appendChild(menuImage);
+    menuContainer.appendChild(photo(menuPhoto));
     menuContainer.appendChild(menuInfo());
 
     menuContainer.classList.add('menu');
