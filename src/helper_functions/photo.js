@@ -25,6 +25,7 @@ function photoCredit(
     secondLink
 ) {
     const container = document.createElement('p');
+    container.classList.add('photo-credit-text');
     const text1 = document.createTextNode('Photo by ');
     const text2 = document.createTextNode(' on ');
 

@@ -13,6 +13,15 @@ h1 {
     text-align: center;
 }
 
+a,
+.photo-credit-text {
+    font-size: 12.5px;
+}
+
+a:link {
+    color: black;
+}
+
 .nav-bar {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
