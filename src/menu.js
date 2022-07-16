@@ -28,12 +28,21 @@ function menuInfo() {
     return menuInfoContainer;
 }
 
+function menu() {
+    const menuContainer = document.createElement('div');
+    menuContainer.appendChild(photo(menuPhoto));
+    menuContainer.appendChild(menuInfo());
+
+    menuContainer.classList.add('menu');
+
+    return menuContainer;
+}
+
 
 function mainMenu() {
     const container = document.createElement('div');
 
-    container.appendChild(photo(menuPhoto));
-    container.appendChild(menuInfo());
+    container.appendChild(menu());
     container.appendChild(photoCredit(
         'Lore Schodts',
         'https://unsplash.com/@lore_schodts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText',
