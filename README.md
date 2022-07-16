@@ -5,3 +5,6 @@ Photo by <a href="https://unsplash.com/@coffeewithjoshua?utm_source=unsplash&utm
   
   Photo credit for doughnuts:
   Photo by <a href="https://unsplash.com/@lore_schodts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lore Schodts</a> on <a href="https://unsplash.com/s/photos/pastry?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+  Bodoni Moda font:
+  https://fonts.google.com/specimen/Bodoni+Moda?category=Serif&sort=popularity#standard-styles
