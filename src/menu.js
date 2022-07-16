@@ -11,7 +11,7 @@ function menuInfoRow(title, description) {
     rowDescription.textContent = description;
 
     const row = document.createElement('div');
-    row.classList.add('doughnut-info-row');
+    row.classList.add('menu-info-row');
     row.appendChild(rowTitle);
     row.appendChild(rowDescription);
 
