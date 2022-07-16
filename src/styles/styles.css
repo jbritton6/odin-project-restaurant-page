@@ -32,6 +32,13 @@ h1 {
     width: 400px;
 }
 
+.menu {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 15%;
+}
+
 .doughnut-info-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
