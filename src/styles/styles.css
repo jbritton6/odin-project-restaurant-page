@@ -32,6 +32,7 @@ a:link {
 }
 
 .nav-bar-button {
+    cursor: pointer;
     list-style-type: none;
     margin: 0 50px;
 }
