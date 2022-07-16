@@ -31,7 +31,10 @@ function menuInfo() {
 
 function menu() {
     const menuContainer = document.createElement('div');
-    menuContainer.appendChild(photo(menuPhoto));
+
+    const menuImage = photo(menuPhoto);
+    menuImage.setAttribute('usemap', '#items');
+    menuContainer.appendChild(menuImage);
     menuContainer.appendChild(menuInfo());
 
     menuContainer.classList.add('menu');
