@@ -48,6 +48,10 @@ h1 {
     text-align: left;
 }
 
+.menu-info-row > P:nth-child(2n+1) {
+    font-weight: 900;
+}
+
 .contact-info-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
